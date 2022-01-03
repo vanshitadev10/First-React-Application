@@ -1,0 +1,49 @@
+h1{
+    color: white;
+    text-align: center;
+  }
+
+.form-control{
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-input label{
+    font-weight: bold;
+}
+
+input{
+    font-size: 1rem;
+    padding: 4px;
+}
+
+.radio__input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 576px){
+    .radio__input{
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    h1{
+        font-size: 1.5rem;
+    }
+}
